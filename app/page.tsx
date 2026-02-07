@@ -1,9 +1,23 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold">Welcome to My Project</h1>
-      <p className="mt-4 text-lg text-muted-foreground">
-        Get started by editing this page.
+    <main
+      style={{
+        display: "flex",
+        minHeight: "100vh",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "2rem",
+        fontFamily: "system-ui, sans-serif",
+        backgroundColor: "#ffffff",
+        color: "#111827",
+      }}
+    >
+      <h1 style={{ fontSize: "2.5rem", fontWeight: 700, marginBottom: "1rem" }}>
+        Projet Hackathon
+      </h1>
+      <p style={{ fontSize: "1.125rem", color: "#6b7280" }}>
+        Bienvenue ! Commencez par modifier cette page.
       </p>
     </main>
   );
